@@ -1,0 +1,19 @@
+# Entorno Virtual
+venv/
+env/
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Base de Datos (Para que no se suban tus pruebas locales)
+*.sqlite3
+
+# Vercel y archivos temporales
+.vercel/
+staticfiles/
+
+# Otros
+.DS_Store
