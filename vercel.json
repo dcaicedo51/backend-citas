@@ -2,14 +2,14 @@
   "version": 2,
   "builds": [
     {
-      "src": "backend-citas/wsgi.py",
+      "src": "backend_citas/wsgi.py",
       "use": "@vercel/python"
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "backend-citas/wsgi.py"
+      "dest": "backend_citas/wsgi.py"
     }
   ]
 }
