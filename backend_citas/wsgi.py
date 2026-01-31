@@ -1,18 +1,10 @@
-"""
-WSGI config for backend_citas project.
-
-It exposes the WSGI callable as a module-level variable named ``application``.
-
-For more information on this file, see
-https://docs.djangoproject.com/en/6.0/howto/deployment/wsgi/
-"""
-
 import os
-
 from django.core.wsgi import get_wsgi_application
 
+# Asegúrate de que el nombre coincida con tu carpeta de configuración
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'backend_citas.settings')
 
 application = get_wsgi_application()
 
+# Variable necesaria para Vercel
 app = application
